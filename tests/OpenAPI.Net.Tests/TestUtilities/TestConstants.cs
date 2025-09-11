@@ -1,7 +1,7 @@
 using OpenAPI.Net.Auth;
 using System;
 
-namespace OpenAPI.Net.Tests.Utilities;
+namespace OpenAPI.Net.Tests.TestUtilities;
 
 public static class TestConstants
 {

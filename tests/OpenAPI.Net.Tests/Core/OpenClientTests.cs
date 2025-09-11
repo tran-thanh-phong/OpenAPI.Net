@@ -1,5 +1,5 @@
 using FluentAssertions;
-using OpenAPI.Net.Tests.Utilities;
+using OpenAPI.Net.Tests.TestUtilities;
 using Xunit;
 using System;
 using System.Threading.Tasks;
@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace OpenAPI.Net.Tests.Core;
 
 /// <summary>
-/// Simplified OpenClient tests to verify basic functionality
+/// Core OpenClient tests to verify basic functionality
 /// </summary>
-public class SimpleOpenClientTests : IDisposable
+public class OpenClientTests : IDisposable
 {
     private OpenClient? _client;
 

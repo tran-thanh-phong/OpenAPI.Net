@@ -1,5 +1,5 @@
 using FluentAssertions;
-using OpenAPI.Net.Tests.Utilities;
+using OpenAPI.Net.Tests.TestUtilities;
 using System.Reactive.Linq;
 using Xunit;
 using Xunit.Abstractions;
@@ -11,14 +11,14 @@ using Google.Protobuf;
 namespace OpenAPI.Net.Tests.Integration;
 
 /// <summary>
-/// Simplified integration tests for Phase 1
+/// Basic integration tests for Phase 1
 /// </summary>
-public class SimpleIntegrationTests : IDisposable
+public class BasicIntegrationTests : IDisposable
 {
     private readonly ITestOutputHelper _output;
     private OpenClient? _client;
 
-    public SimpleIntegrationTests(ITestOutputHelper output)
+    public BasicIntegrationTests(ITestOutputHelper output)
     {
         _output = output;
     }

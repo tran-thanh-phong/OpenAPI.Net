@@ -1,6 +1,6 @@
 using FluentAssertions;
 using OpenAPI.Net.Auth;
-using OpenAPI.Net.Tests.Utilities;
+using OpenAPI.Net.Tests.TestUtilities;
 using Xunit;
 using System;
 
